@@ -16,7 +16,7 @@ import Config from '../config.json';
 
 const ShopPage = (props) => {
   const [showFilter, setShowFilter] = useState(false);
-  const data = generateMockProductData(6, 'woman');
+  const data = generateMockProductData(6, 'mycelium');
 
   useEffect(() => {
     window.addEventListener('keydown', escapeHandler);
@@ -36,7 +36,7 @@ const ShopPage = (props) => {
             <Breadcrumbs
               crumbs={[
                 { link: '/', label: 'Home' },
-                { link: '/', label: 'Woman' },
+                { link: '/', label: 'Mycelium' },
                 { label: 'Sweaters' },
               ]}
             />
@@ -44,7 +44,7 @@ const ShopPage = (props) => {
         </Container>
         <Banner
           maxWidth={'650px'}
-          name={`Woman's Sweaters`}
+          name={`Mycelium`}
           subtitle={
             'Look to our women’s sweaters for modern takes on one-and-done dressing. From midis in bold prints to dramatic floor-sweeping styles and easy all-in-ones, our edit covers every mood.'
           }

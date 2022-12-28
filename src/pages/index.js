@@ -90,8 +90,8 @@ const IndexPage = () => {
       <div className={styles.promotionContainer}>
         <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>WOMAN</Link>
-          <Link to={'/shop'}>MAN</Link>
+          <Link to={'/shop'}>MYCELIUM</Link>
+          <Link to={'/shop'}>ACCESSORIES</Link>
         </div>
       </div>
 

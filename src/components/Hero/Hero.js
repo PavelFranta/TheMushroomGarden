@@ -5,7 +5,6 @@ import { Link } from 'gatsby';
 
 const Hero = (props) => {
   const {
-    title,
     subtitle,
     ctaText,
     ctaAction,
@@ -20,7 +19,6 @@ const Hero = (props) => {
     <div className={styles.root} style={{ backgroundImage: `url(${image})` }}>
       <div className={styles.content} style={{ maxWidth: maxWidth }}>
         {header && <span className={styles.header}>{header}</span>}
-        {title && <h2 className={styles.title}>{title}</h2>}
         {subtitle && <span className={styles.subtitle}>{subtitle}</span>}
         {ctaText && (
           <Button

@@ -16,14 +16,7 @@ const BlogPage = (props) => {
   return (
     <Layout disablePaddingBottom>
       <div className={styles.root}>
-        <Hero
-          maxWidth={'400px'}
-          image={'/blogCover.png'}
-          title={`The new standard of Closing`}
-          ctaLink={'read story'}
-          ctaTo={'/blog/sample'}
-          header={'design'}
-        />
+        <Hero maxWidth={'400px'} image={'/mushroomCover.jpg'} />
 
         <div className={styles.navContainer}>
           <ThemeLink
@@ -31,12 +24,6 @@ const BlogPage = (props) => {
             to={'/blog/sample'}
           >
             All Posts
-          </ThemeLink>
-          <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
-          >
-            Design
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}

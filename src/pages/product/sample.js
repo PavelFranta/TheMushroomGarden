@@ -30,7 +30,7 @@ const ProductPage = (props) => {
     sampleProduct.colorOptions[0]
   );
   const [activeSize, setActiveSize] = useState(sampleProduct.sizeOptions[0]);
-  const suggestions = generateMockProductData(4, 'woman');
+  const suggestions = generateMockProductData(4, 'mycelium');
 
   return (
     <Layout>
